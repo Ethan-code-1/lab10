@@ -1,0 +1,6 @@
+The finally statement acts as a fail safe which will always run at the end of the code block, 
+regardless of if an exception is thrown or not. Within the finally statement, the program checks 
+to see if the file provided to the function exists (was opened) and if so it closes the file. 
+In the context of this program this is important because it is best practice in programs to always close 
+files after opening them. Placing this line in the finally block ensures that this always happens at the
+ end of the program, even if errors arise after the file is first opened. 
